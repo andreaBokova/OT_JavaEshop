@@ -1,0 +1,108 @@
+/*login*/
+body{
+overflow-x: hidden;
+width: 100vw;
+height: 100vh;
+
+}
+
+*{
+	overflow-x: hidden;
+}
+
+.card-body{
+	text-align: center;
+	
+}
+
+
+.card-body input{
+
+	margin-bottom: 12px;
+
+	
+}
+
+.card{
+ margin: 0 auto; 
+    margin-top:50px;
+        margin-bottom: 10px; 
+
+}
+.card-body label{
+	margin: 0;
+	display: inline-block;
+}
+
+/*navigacia*/
+
+ ul{
+
+	width: 100%;
+	margin-left: 880px;
+}
+
+
+.navbar-nav ul li{
+
+	margin: 0 10px;
+}
+
+
+.navbar-nav input[type='submit']{
+	 color: rgba(255,255,255,.5);
+	 background: none;
+	 border: none;
+}
+
+.navbar-nav input[type='submit']:hover{
+color: rgba(255,255,255,.75);
+}
+
+.container{
+	background-color: white;
+	
+}
+
+.col-4{
+	border:1px solid white;
+	width:200px;
+	text-align: center;
+	
+}
+
+.dark-button{
+	border-radius:5px;
+    border: 1px solid #343a40;
+	padding: 5px;
+	color: #343a40;
+    background-color: transparent;
+	
+}
+.dark-button:hover{
+color: white;
+background-color:#343a40;
+transition:0.5s;
+cursor: pointer;
+
+}
+
+
+td, th, thead{
+padding:20px;
+	text-align:center;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+
+
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
+}
+
+

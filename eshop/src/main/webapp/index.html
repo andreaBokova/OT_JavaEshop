@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+
+<meta charset="UTF-8">
+<title>ScentsLab</title>
+<!-- bootstrap -->
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+
+<br>
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+      <div><img  src="imgs/logoESHOP.png" style="width:180px;"></div>
+    <!-- <h5 class="card-title">ScentsLab</h5>-->
+  
+    <br>
+    <form action="viewServlet" method="post">
+     <input type="hidden"  name="operacia" value="login">
+     <label>Login</label><br><input type="text" name="email" required><br>
+      <label>Heslo</label><br><input type="password" name="password" required><br><br>
+     <input type="submit" value="Prihlásiť sa" class="btn btn-outline-dark">
+     <br>   
+</form>
+    
+ 
+   
+   
+   
+     <br>
+    
+    
+    
+    
+    <span class="card-text">Ešte nemáte vytvorený účet? <a href="signUpServlet" class="card-link">Zaregistrovať sa</a></span>
+   
+    
+ 
+   
+    
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
